@@ -1,0 +1,10 @@
+target 'WanderNote' do
+
+platform :ios, '10.0'
+use_frameworks!
+
+pod 'Alamofire'
+pod 'IQKeyboardManager'
+pod 'RxSwift'
+pod 'RxCocoa'
+end
