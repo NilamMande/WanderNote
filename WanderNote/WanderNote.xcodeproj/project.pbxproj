@@ -18,11 +18,11 @@
 		87D9DB65207910AC0033BA5C /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D9DB64207910AC0033BA5C /* ListTableViewCell.swift */; };
 		87D9DB67207911590033BA5C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D9DB66207911590033BA5C /* DetailsViewController.swift */; };
 		87D9DB6B207917A30033BA5C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D9DB6A207917A30033BA5C /* CustomButton.swift */; };
-		87D9DB6E207A3B350033BA5C /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D9DB6D207A3B350033BA5C /* Endpoint.swift */; };
 		87D9DB70207A3BB20033BA5C /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D9DB6F207A3BB20033BA5C /* APIHelper.swift */; };
 		87D9DB72207A40840033BA5C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D9DB71207A40840033BA5C /* APIManager.swift */; };
 		87D9DB7A207A4AD70033BA5C /* WanderNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D9DB79207A4AD70033BA5C /* WanderNoteTests.swift */; };
 		87D9DB82207A4C2D0033BA5C /* NoteModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D9DB81207A4C2D0033BA5C /* NoteModelTests.swift */; };
+		87D9DB84207A7E000033BA5C /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D9DB83207A7E000033BA5C /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,13 +48,13 @@
 		87D9DB64207910AC0033BA5C /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		87D9DB66207911590033BA5C /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		87D9DB6A207917A30033BA5C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		87D9DB6D207A3B350033BA5C /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = "../../../../../UBM before/ Farbinder_iOS/Farbinder/Classes/Model/API Model/RxModel/Endpoint.swift"; sourceTree = "<group>"; };
 		87D9DB6F207A3BB20033BA5C /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
 		87D9DB71207A40840033BA5C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		87D9DB77207A4AD70033BA5C /* WanderNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WanderNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D9DB79207A4AD70033BA5C /* WanderNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WanderNoteTests.swift; sourceTree = "<group>"; };
 		87D9DB7B207A4AD80033BA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87D9DB81207A4C2D0033BA5C /* NoteModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModelTests.swift; sourceTree = "<group>"; };
+		87D9DB83207A7E000033BA5C /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		A4174C0D636EB0CF65E8CDBE /* Pods_WanderNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WanderNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A974A41DAE641260D33C6C08 /* Pods-WanderNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanderNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WanderNote/Pods-WanderNote.debug.xcconfig"; sourceTree = "<group>"; };
 		CCC88202768896E0972C128B /* Pods-WanderNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WanderNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-WanderNote/Pods-WanderNote.release.xcconfig"; sourceTree = "<group>"; };
@@ -178,7 +178,7 @@
 		87D9DB6C207A3B200033BA5C /* APIModel */ = {
 			isa = PBXGroup;
 			children = (
-				87D9DB6D207A3B350033BA5C /* Endpoint.swift */,
+				87D9DB83207A7E000033BA5C /* Endpoint.swift */,
 				87D9DB6F207A3BB20033BA5C /* APIHelper.swift */,
 				87D9DB71207A40840033BA5C /* APIManager.swift */,
 			);
@@ -365,11 +365,11 @@
 				8773338F2077BA6C0089FC49 /* NoteViewModel.swift in Sources */,
 				87D9DB72207A40840033BA5C /* APIManager.swift in Sources */,
 				87D9DB6B207917A30033BA5C /* CustomButton.swift in Sources */,
-				87D9DB6E207A3B350033BA5C /* Endpoint.swift in Sources */,
 				8773338D2077BA530089FC49 /* NoteModel.swift in Sources */,
 				87D9DB632079101D0033BA5C /* ListViewController.swift in Sources */,
 				87D9DB67207911590033BA5C /* DetailsViewController.swift in Sources */,
 				877333772077B42C0089FC49 /* AppDelegate.swift in Sources */,
+				87D9DB84207A7E000033BA5C /* Endpoint.swift in Sources */,
 				87D9DB65207910AC0033BA5C /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -512,7 +512,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

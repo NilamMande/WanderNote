@@ -47,7 +47,6 @@ class APIManager: NSObject {
                 }
         }
     }
-    
 }
 
 public enum ApiError: Error {
